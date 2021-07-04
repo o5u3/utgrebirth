@@ -23,11 +23,11 @@ local slinger = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local feutgv2 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local MORESCRIPTSLATER_2 = Instance.new("TextButton")
+local radio1 = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local MORESCRIPTSLATER_3 = Instance.new("TextButton")
+local radio2 = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local MORESCRIPTSLATER_4 = Instance.new("TextButton")
+local SpectrumGlitcher = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local MORESCRIPTSLATER_5 = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
@@ -2900,47 +2900,56 @@ end)
 
 UICorner_5.Parent = feutgv2
 
-MORESCRIPTSLATER_2.Name = "MORESCRIPTSLATER"
-MORESCRIPTSLATER_2.Parent = Page1
-MORESCRIPTSLATER_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
-MORESCRIPTSLATER_2.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
-MORESCRIPTSLATER_2.Size = UDim2.new(0, 110, 0, 48)
-MORESCRIPTSLATER_2.ZIndex = 7
-MORESCRIPTSLATER_2.Font = Enum.Font.SourceSansBold
-MORESCRIPTSLATER_2.Text = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_2.TextColor3 = Color3.fromRGB(61, 61, 61)
-MORESCRIPTSLATER_2.TextSize = 18.000
-MORESCRIPTSLATER_2.TextWrapped = true
+radio1.Name = "radio1"
+radio1.Parent = Page1
+radio1.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+radio1.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
+radio1.Size = UDim2.new(0, 110, 0, 48)
+radio1.ZIndex = 7
+radio1.Font = Enum.Font.SourceSansBold
+radio1.Text = "Radio 1"
+radio1.TextColor3 = Color3.fromRGB(61, 61, 61)
+radio1.TextSize = 18.000
+radio1.TextWrapped = true
+radio1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGetAsync("https://paste.ee/r/F5d4Y"))()
+end)
 
-UICorner_6.Parent = MORESCRIPTSLATER_2
+UICorner_6.Parent = radio1
 
-MORESCRIPTSLATER_3.Name = "MORESCRIPTSLATER"
-MORESCRIPTSLATER_3.Parent = Page1
-MORESCRIPTSLATER_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
-MORESCRIPTSLATER_3.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
-MORESCRIPTSLATER_3.Size = UDim2.new(0, 110, 0, 48)
-MORESCRIPTSLATER_3.ZIndex = 7
-MORESCRIPTSLATER_3.Font = Enum.Font.SourceSansBold
-MORESCRIPTSLATER_3.Text = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_3.TextColor3 = Color3.fromRGB(61, 61, 61)
-MORESCRIPTSLATER_3.TextSize = 18.000
-MORESCRIPTSLATER_3.TextWrapped = true
+radio2.Name = "radio2"
+radio2.Parent = Page1
+radio2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+radio2.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
+radio2.Size = UDim2.new(0, 110, 0, 48)
+radio2.ZIndex = 7
+radio2.Font = Enum.Font.SourceSansBold
+radio2.Text = "Radio 2"
+radio2.TextColor3 = Color3.fromRGB(61, 61, 61)
+radio2.TextSize = 18.000
+radio2.TextWrapped = true
+radio2.MouseButton1Click:Connect(function()
+loadstring(game:HttpGetAsync("https://paste.ee/r/vtC71"))()
+end)
 
-UICorner_7.Parent = MORESCRIPTSLATER_3
+UICorner_7.Parent = radio2
 
-MORESCRIPTSLATER_4.Name = "MORESCRIPTSLATER"
-MORESCRIPTSLATER_4.Parent = Page1
-MORESCRIPTSLATER_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
-MORESCRIPTSLATER_4.Position = UDim2.new(0.254999995, 10, 1.58037639, -280)
-MORESCRIPTSLATER_4.Size = UDim2.new(0, 110, 0, 48)
-MORESCRIPTSLATER_4.ZIndex = 7
-MORESCRIPTSLATER_4.Font = Enum.Font.SourceSansBold
-MORESCRIPTSLATER_4.Text = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_4.TextColor3 = Color3.fromRGB(61, 61, 61)
-MORESCRIPTSLATER_4.TextSize = 18.000
-MORESCRIPTSLATER_4.TextWrapped = true
+SpectrumGlitcher.Name = "SpectrumGlitcher"
+SpectrumGlitcher.Parent = Page1
+SpectrumGlitcher.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+SpectrumGlitcher.Position = UDim2.new(0.254999995, 10, 1.58037639, -280)
+SpectrumGlitcher.Size = UDim2.new(0, 110, 0, 48)
+SpectrumGlitcher.ZIndex = 7
+SpectrumGlitcher.Font = Enum.Font.SourceSansBold
+SpectrumGlitcher.Text = "Spectrum Glitcher"
+SpectrumGlitcher.TextColor3 = Color3.fromRGB(61, 61, 61)
+SpectrumGlitcher.TextSize = 18.000
+SpectrumGlitcher.TextWrapped = true
+SpectrumGlitcher.MouseButton1Click:Connect(function() -- dont expect this to be open-sourced --
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\65\115\121\110\99\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\46\101\101\47\114\47\77\120\71\54\103\47\48\34\41\41\40\41\10")()
+end)
 
-UICorner_8.Parent = MORESCRIPTSLATER_4
+UICorner_8.Parent = SpectrumGlitcher
 
 MORESCRIPTSLATER_5.Name = "MORESCRIPTSLATER"
 MORESCRIPTSLATER_5.Parent = Page1
@@ -4788,7 +4797,7 @@ Supr_3.BackgroundTransparency = 1.000
 Supr_3.Position = UDim2.new(0, 5, 0, 70)
 Supr_3.Size = UDim2.new(0.949999988, 0, 0.0316537693, 25)
 Supr_3.Font = Enum.Font.SourceSans
-Supr_3.Text = "ilykiwi - Gui"
+Supr_3.Text = "ilykiwi - Gui, Radios, & Spectrum Glitcher"
 Supr_3.TextColor3 = Color3.fromRGB(61, 61, 61)
 Supr_3.TextScaled = true
 Supr_3.TextSize = 24.000
