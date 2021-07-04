@@ -2945,7 +2945,7 @@ SpectrumGlitcher.Text = "Spectrum Glitcher"
 SpectrumGlitcher.TextColor3 = Color3.fromRGB(61, 61, 61)
 SpectrumGlitcher.TextSize = 18.000
 SpectrumGlitcher.TextWrapped = true
-SpectrumGlitcher.MouseButton1Click:Connect(function() -- dont expect this to be open-sourced --
+SpectrumGlitcher.MouseButton1Click:Connect(function()
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\65\115\121\110\99\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\46\101\101\47\114\47\77\120\71\54\103\47\48\34\41\41\40\41\10")()
 end)
 
@@ -4969,8 +4969,8 @@ local function AAOSDP_fake_script() -- Credits.CreditStuff
 
 	local button = script.Parent
 	local main = script.Parent.Parent
-	local nigger = main:WaitForChild'CreditStuff'
-	local nigger2 = main:WaitForChild'CreditBorder'
+	local cstuff = main:WaitForChild'CreditStuff'
+	local cstuff2 = main:WaitForChild'CreditBorder'
 	local creditsOpened=false
 	local DB=false
 	
@@ -4978,21 +4978,21 @@ local function AAOSDP_fake_script() -- Credits.CreditStuff
 		if(DB)then return end
 		if(not creditsOpened)then
 			DB=true
-			nigger.Visible=true
-			nigger2.Visible=true
-			nigger:TweenSize(UDim2.new(0,225,1,0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
-			nigger2:TweenSize(UDim2.new(0,249,1,24),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
+			cstuff.Visible=true
+			cstuff2.Visible=true
+			cstuff:TweenSize(UDim2.new(0,225,1,0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
+			cstuff2:TweenSize(UDim2.new(0,249,1,24),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
 			wait(.3)
 			DB=false
 			creditsOpened=true
 		else
 			DB=true
-			nigger:TweenSize(UDim2.new(0,225,0,0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
-			nigger2:TweenSize(UDim2.new(0,249,0,0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
+			cstuff:TweenSize(UDim2.new(0,225,0,0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
+			cstuff2:TweenSize(UDim2.new(0,249,0,0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,.3,true)
 			wait(.3)
 			DB=false
-			nigger.Visible=false
-			nigger2.Visible=false
+			cstuff.Visible=false
+			cstuff2.Visible=false
 			creditsOpened=false
 		end
 	end)
