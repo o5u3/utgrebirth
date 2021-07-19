@@ -29,7 +29,7 @@ local radio2 = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local SpectrumGlitcher = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local MORESCRIPTSLATER_5 = Instance.new("TextButton")
+local TypicalHub = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local GravityPuller = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
@@ -2951,19 +2951,22 @@ end)
 
 UICorner_8.Parent = SpectrumGlitcher
 
-MORESCRIPTSLATER_5.Name = "MORESCRIPTSLATER"
-MORESCRIPTSLATER_5.Parent = Page1
-MORESCRIPTSLATER_5.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
-MORESCRIPTSLATER_5.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
-MORESCRIPTSLATER_5.Size = UDim2.new(0, 110, 0, 48)
-MORESCRIPTSLATER_5.ZIndex = 7
-MORESCRIPTSLATER_5.Font = Enum.Font.SourceSansBold
-MORESCRIPTSLATER_5.Text = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_5.TextColor3 = Color3.fromRGB(61, 61, 61)
-MORESCRIPTSLATER_5.TextSize = 18.000
-MORESCRIPTSLATER_5.TextWrapped = true
+TypicalHub.Name = "TypicalHub"
+TypicalHub.Parent = Page1
+TypicalHub.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TypicalHub.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
+TypicalHub.Size = UDim2.new(0, 110, 0, 48)
+TypicalHub.ZIndex = 7
+TypicalHub.Font = Enum.Font.SourceSansBold
+TypicalHub.Text = "Typical Hub"
+TypicalHub.TextColor3 = Color3.fromRGB(61, 61, 61)
+TypicalHub.TextSize = 18.000
+TypicalHub.TextWrapped = true
+TypicalHub.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/TypicalHub/main/source", true))()
+end)
 
-UICorner_9.Parent = MORESCRIPTSLATER_5
+UICorner_9.Parent = TypicalHub
 
 GravityPuller.Name = "GravityPuller"
 GravityPuller.Parent = Page1
