@@ -37,13 +37,13 @@ local Page = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local amogus = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local MORESCRIPTSLATER_6 = Instance.new("TextButton")
+local sexdoll = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local feutgv1 = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
 local PageNumber = Instance.new("TextButton")
 local Page2 = Instance.new("Frame")
-local MORESCRIPTSLATER_7 = Instance.new("TextButton")
+local aspecthub = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 local MORESCRIPTSLATER_8 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
@@ -4347,19 +4347,22 @@ end)
 
 UICorner_12.Parent = amogus
 
-MORESCRIPTSLATER_6.Name = "MORESCRIPTSLATER"
-MORESCRIPTSLATER_6.Parent = Page1
-MORESCRIPTSLATER_6.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
-MORESCRIPTSLATER_6.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
-MORESCRIPTSLATER_6.Size = UDim2.new(0, 110, 0, 48)
-MORESCRIPTSLATER_6.ZIndex = 7
-MORESCRIPTSLATER_6.Font = Enum.Font.SourceSansBold
-MORESCRIPTSLATER_6.Text = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_6.TextColor3 = Color3.fromRGB(61, 61, 61)
-MORESCRIPTSLATER_6.TextSize = 18.000
-MORESCRIPTSLATER_6.TextWrapped = true
+sexdoll.Name = "sexdoll"
+sexdoll.Parent = Page1
+sexdoll.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+sexdoll.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
+sexdoll.Size = UDim2.new(0, 110, 0, 48)
+sexdoll.ZIndex = 7
+sexdoll.Font = Enum.Font.SourceSansBold
+sexdoll.Text = "Sex Doll"
+sexdoll.TextColor3 = Color3.fromRGB(61, 61, 61)
+sexdoll.TextSize = 18.000
+sexdoll.TextWrapped = true
+sexdoll.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://paste.ee/r/8MBU1"))()
+end)
 
-UICorner_13.Parent = MORESCRIPTSLATER_6
+UICorner_13.Parent = sexdoll
 
 feutgv1.Name = "feutgv1"
 feutgv1.Parent = Page1
@@ -4506,19 +4509,22 @@ Page2.Position = UDim2.new(0, 0, 0.300000012, 0)
 Page2.Size = UDim2.new(1, 0, 0.600000024, 0)
 Page2.Visible = false
 
-MORESCRIPTSLATER_7.Name = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_7.Parent = Page2
-MORESCRIPTSLATER_7.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
-MORESCRIPTSLATER_7.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
-MORESCRIPTSLATER_7.Size = UDim2.new(0, 110, 0, 48)
-MORESCRIPTSLATER_7.ZIndex = 7
-MORESCRIPTSLATER_7.Font = Enum.Font.SourceSansBold
-MORESCRIPTSLATER_7.Text = "MORE SCRIPTS LATER"
-MORESCRIPTSLATER_7.TextColor3 = Color3.fromRGB(61, 61, 61)
-MORESCRIPTSLATER_7.TextSize = 18.000
-MORESCRIPTSLATER_7.TextWrapped = true
+aspecthub.Name = "aspecthub"
+aspecthub.Parent = Page2
+aspecthub.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+aspecthub.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
+aspecthub.Size = UDim2.new(0, 110, 0, 48)
+aspecthub.ZIndex = 7
+aspecthub.Font = Enum.Font.SourceSansBold
+aspecthub.Text = "Aspect Hub"
+aspecthub.TextColor3 = Color3.fromRGB(61, 61, 61)
+aspecthub.TextSize = 18.000
+aspecthub.TextWrapped = true
+aspecthub.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://paste.ee/r/IjTHl"))()
+end)
 
-UICorner_15.Parent = MORESCRIPTSLATER_7
+UICorner_15.Parent = aspecthub
 
 MORESCRIPTSLATER_8.Name = "MORE SCRIPTS LATER"
 MORESCRIPTSLATER_8.Parent = Page2
